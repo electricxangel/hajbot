@@ -139,8 +139,8 @@ async def commandlist(interaction: discord.Interaction):
 @tree.command(name="reddit", description="sends a post from r/blahaj")  #start of reddit command
 async def reddit(interaction: discord.Interaction):
 
-    reddit_api = praw.Reddit(client_id='1FKzGuQNz5CorVPwbreNIw',        #creates reddit api and signs in
-                             client_secret='uBnNtG5p62NnLAtyFMpDUrf8PNLLcQ',
+    reddit_api = praw.Reddit(client_id='',        #creates reddit api and signs in
+                             client_secret='',
                              user_agent='HajBot')
     all_subs = []   #initialises list of submissions to randomly select
 
